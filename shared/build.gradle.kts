@@ -33,6 +33,7 @@ kotlin {
                 implementation(compose.material)
                 @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
                 implementation(compose.components.resources)
+                api("io.github.qdsfdhvh:image-loader:1.6.3")
             }
         }
         val androidMain by getting {
